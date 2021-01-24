@@ -19,16 +19,16 @@ import javax.security.enterprise.identitystore.Pbkdf2PasswordHash;
  */
 @DeclareRoles({"Admin","Student"})
 
-	@CustomFormAuthenticationMechanismDefinition(
-        	loginToContinue = @LoginToContinue(loginPage = "/login")
-	)
+@CustomFormAuthenticationMechanismDefinition(
+        loginToContinue = @LoginToContinue(loginPage = "/login")
+)
 
-	@DatabaseIdentityStoreDefinition(
-        	dataSourceLookup = "hogwartsjndi",
-	        callerQuery = "select password from tbluser where userName=?",
-        	groupsQuery = "select groupName from tbluser u,tblgroup g,tblusergroup ug where u.userID = ug.userID and g.groupID = ug.groupID and userName=?",
-	        hashAlgorithm = Pbkdf2PasswordHash.class,
-	        priority = 30)
+@DatabaseIdentityStoreDefinition(
+        dataSourceLookup = "hogwartsjndi",
+        callerQuery = "select password from tbluser where userName=?",
+        groupsQuery = "select groupName from tbluser u,tblgroup g,tblusergroup ug where u.userID = ug.userID and g.groupID = ug.groupID and userName=?",
+        hashAlgorithm = Pbkdf2PasswordHash.class,
+        priority = 30)
 @ApplicationScoped
 @Named
 public class config {

@@ -7,4 +7,5 @@ com\mycompany\customerfront\service\ExampleService.class
 com\mycompany\customerfront\service\HealthCheckService.class
 com\mycompany\customerfront\config\Producers.class
 cdiBean\loginBean.class
+com\mycompany\customerfront\servlet\NewServlet.class
 project\config.class
