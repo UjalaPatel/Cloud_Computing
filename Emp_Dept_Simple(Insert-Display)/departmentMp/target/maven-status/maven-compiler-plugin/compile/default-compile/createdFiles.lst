@@ -1,0 +1,10 @@
+com\mycompany\departmentmp\entity\Tblemployee_.class
+com\mycompany\departmentmp\config\CrossOriginResourceSharingFilter.class
+com\mycompany\departmentmp\model\departmentModel.class
+com\mycompany\departmentmp\entity\Tbldepartment_.class
+com\mycompany\departmentmp\service\HealthCheckService.class
+com\mycompany\departmentmp\config\BootStrap.class
+com\mycompany\departmentmp\entity\Tblemployee.class
+com\mycompany\departmentmp\service\departmentService.class
+com\mycompany\departmentmp\config\Producers.class
+com\mycompany\departmentmp\entity\Tbldepartment.class
