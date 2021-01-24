@@ -1,0 +1,10 @@
+com\mycompany\customerfront\config\CrossOriginResourceSharingFilter.class
+com\mycompany\customerfront\servlet\customerServlet.class
+com\mycompany\customermp\entity\Tblcustomer.class
+com\mycompany\customerfront\config\BootStrap.class
+com\mycompany\customerfront\service\customerClient.class
+com\mycompany\customerfront\service\ExampleService.class
+com\mycompany\customerfront\service\HealthCheckService.class
+com\mycompany\customerfront\config\Producers.class
+cdiBean\loginBean.class
+project\config.class
